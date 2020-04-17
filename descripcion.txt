@@ -1,0 +1,17 @@
+
+    ESTO ES COMO USAR PLUGINS EN WEBPACK Y VA DENTRO DEL CONFIG
+    plugins: [
+    new CleanWebpackPlugin({ dry: true }),
+    new HtmlWebpackPlugin({
+      title: 'Hello From webpack!!!!'
+    })
+  ],
+    
+    ESTAS SON LAS LIBRERAIAS QUE NECESITAN INSTALAR
+      "css-loader": "^2.1.1",
+    "file-loader": "^3.0.1",
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
